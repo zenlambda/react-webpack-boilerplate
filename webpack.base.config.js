@@ -32,7 +32,7 @@ module.exports = {
                 test: /\.scss$/,
                 loaders: ["style", "css", "sass"]
             },
-            { test: /\.css$/, loader: 'style!css!autoprefixer?browsers=last 2 version'}
+            { test: /\.css$/, loader: 'style!css'}
         ]
     },
 

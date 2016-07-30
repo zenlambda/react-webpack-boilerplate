@@ -9,6 +9,7 @@ Includes:
 
 * Babel compilation for ES2015 and React.
 * Babel polyfill
+* Normalize.css
 * Sass for styling.
 * ESLint with 'recommended' configuration
 

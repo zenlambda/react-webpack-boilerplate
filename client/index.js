@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+require('normalize.css');
 require('./app.scss');
 
 export class Root extends Component {
