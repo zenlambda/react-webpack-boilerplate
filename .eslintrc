@@ -1,0 +1,15 @@
+{
+
+    "parser": "babel-eslint",
+
+    "extends": "eslint:recommended",
+
+    "plugins": [
+        "react"
+    ],
+
+    "ecmaFeatures": {
+        "jsx": true
+    }
+
+}

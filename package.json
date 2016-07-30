@@ -1,0 +1,35 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal boilerplate for ReactJS using Webpack",
+  "main": "index.js",
+  "private": true,
+  "script": {
+    "dist": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.2.0",
+    "eslint-plugin-react": "^5.2.2",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Wilson",
+  "license": "CC0-1.0"
+}
